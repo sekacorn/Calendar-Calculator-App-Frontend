@@ -1,0 +1,26 @@
+<div class="container">
+    <h2>Count Between Dates</h2>
+    <form (ngSubmit)="countBetween()">
+        <div class="form-group">
+            <label for="startDate">Start Date:</label>
+            <input type="date" id="startDate" class="form-control" [(ngModel)]="startDate" name="startDate" required>
+        </div>
+        <div class="form-group">
+            <label for="endDate">End Date:</label>
+            <input type="date" id="endDate" class="form-control" [(ngModel)]="endDate" name="endDate" required>
+        </div>
+        <div class="form-group">
+            <label for="unit">Unit:</label>
+            <select id="unit" class="form-control" [(ngModel)]="unit" name="unit" required>
+                <option value="DAYS">Days</option>
+                <option value="WEEKS">Weeks</option>
+                <option value="MONTHS">Months</option>
+                <option value="YEARS">Years</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Count</button>
+    </form>
+    <div *ngIf="result !== null">
+        <h3>Count: {{ result }}</h3>
+    </div>
+</div>

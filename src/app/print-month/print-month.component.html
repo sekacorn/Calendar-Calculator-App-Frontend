@@ -1,0 +1,14 @@
+<div class="container">
+    <h2>Print Month</h2>
+    <form (ngSubmit)="printMonth()">
+        <div class="form-group">
+            <label for="date">Date:</label>
+            <input type="month" id="date" class="form-control" [(ngModel)]="date" name="date" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Print Month</button>
+    </form>
+    <div *ngIf="result !== null">
+        <h3>Month Calendar:</h3>
+        <pre>{{ result }}</pre>
+    </div>
+</div>

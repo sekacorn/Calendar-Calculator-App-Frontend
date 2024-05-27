@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-control {
+  width: 100%;
+}
+
+.btn {
+  width: 100%;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+nav a {
+  margin-right: 15px;
+}
+

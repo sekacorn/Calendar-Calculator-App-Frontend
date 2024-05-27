@@ -1,0 +1,76 @@
+import {
+  BrowserModule
+}
+
+from '@angular/platform-browser';
+import {
+  NgModule
+}
+
+from '@angular/core';
+import {
+  FormsModule
+}
+
+from '@angular/forms';
+import {
+  HttpClientModule
+}
+
+from '@angular/common/http';
+
+import {
+  AppComponent
+}
+
+from './app.component';
+import {
+  AddDatesComponent
+}
+
+from './add-dates/add-dates.component';
+import {
+  SubtractDatesComponent
+}
+
+from './subtract-dates/subtract-dates.component';
+import {
+  DayOfWeekComponent
+}
+
+from './day-of-week/day-of-week.component';
+import {
+  PrintMonthComponent
+}
+
+from './print-month/print-month.component';
+import {
+  CountBetweenComponent
+}
+
+from './count-between/count-between.component';
+import {
+  CalendarService
+}
+
+from './calendar.service';
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    AddDatesComponent,
+    SubtractDatesComponent,
+    DayOfWeekComponent,
+    PrintMonthComponent,
+    CountBetweenComponent
+  ],
+  imports: [
+    BrowserModule,
+    FormsModule,
+    HttpClientModule
+  ],
+  providers: [CalendarService],
+  bootstrap: [AppComponent]
+})
+export class AppModule {
+}

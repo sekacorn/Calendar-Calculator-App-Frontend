@@ -1,6 +1,3 @@
-# CalendarApp
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.1.
 # Calendar App Frontend
 
 This is the frontend part of the Calendar App, built with Angular and styled using Bootstrap. It interacts with the backend RESTful services to perform various calendar-related operations such as adding dates, subtracting dates, finding the day of the week, printing a month's calendar, and counting the number of days/weeks/months/years between two dates.
@@ -16,84 +13,20 @@ This is the frontend part of the Calendar App, built with Angular and styled usi
 
 1. **Clone the repository:**
 
-    ```sh
-    git clone https://github.com/yourusername/calendar-app-frontend.git
-    cd calendar-app-frontend
     ```
-
-2. **Install the dependencies:**
-
-    ```sh
-    npm install
-    ```
-
-3. **Add Bootstrap:**
-
-    ```sh
-    npm install bootstrap
-    ```
-
-### Configuration
-
-Make sure the backend Spring Boot application is running and accessible at `http://localhost:8080`.
-
-### Modify `angular.json`
-
-Add the Bootstrap CSS file to the `styles` array in `angular.json`:
-
-```json
-"styles": [
-  "src/styles.css",
-  "node_modules/bootstrap/dist/css/bootstrap.min.css"
-],
-```
-Running the Application
-Start the Angular development server:
-
-```
-ng serve
-
-```
-**Open your browser and navigate to:**
-
-```
-http://localhost:4200
-
-```
-
-
-Here is the complete README content in plain text format:
-
-
-# Calendar App Frontend
-
-This is the frontend part of the Calendar App, built with Angular and styled using Bootstrap. It interacts with the backend RESTful services to perform various calendar-related operations such as adding dates, subtracting dates, finding the day of the week, printing a month's calendar, and counting the number of days/weeks/months/years between two dates.
-
-## Prerequisites
-
-- [Node.js](https://nodejs.org/) (v12 or higher)
-- [Angular CLI](https://angular.io/cli) (v10 or higher)
-
-## Getting Started
-
-### Installation
-
-1. **Clone the repository:**
-
-    ```sh
     git clone 
     cd calendar-app-frontend
     ```
 
 2. **Install the dependencies:**
 
-    ```sh
+    ```
     npm install
     ```
 
 3. **Add Bootstrap:**
 
-    ```sh
+    ```
     npm install bootstrap
     ```
 

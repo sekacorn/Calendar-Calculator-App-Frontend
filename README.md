@@ -113,17 +113,20 @@ json
 ],
 ```
 ## Running the Application
-Start the Angular development server:
 
+1. Start the Angular development server:
 
 ```
 ng serve
 ````
-Open your browser and navigate to:
+
+2. Open your browser and navigate to:
 
 
 http://localhost:4200
-## Project Structu
+
+## Project Structure
+
 src/app: Contains the Angular components, services, and main app module.
 src/styles.css: Contains global styles.
 Components
@@ -136,6 +139,7 @@ Services
 CalendarService: Contains methods to call the backend RESTful services.
 
 **Usage**
+
 Adding Dates
 Navigate to the "Add Dates" page, select two dates, and click the "Add" button. The result will be displayed on the screen.
 
@@ -150,3 +154,29 @@ Navigate to the "Print Month" page, select a date, and click the "Print Month" b
 
 Counting Between Dates
 Navigate to the "
+
+
+## Steps to Build and Deploy
+# Build Docker Image:
+1 Navigate to the root directory of your front-end project (where the Dockerfile is located) and run:
+
+```
+docker build -t calendar-frontend .
+```
+2 Push Docker Image to a Container Registry:
+Tag and push your image to Docker Hub (replace your_dockerhub_username with your actual Docker Hub username):
+
+```
+docker tag calendar-frontend:latest your_dockerhub_username/calendar-frontend:latest
+docker push your_dockerhub_username/calendar-frontend:latest
+```
+3 Deploy to Kubernetes:
+4 Apply the Kubernetes configuration from the k8s directory:
+
+```
+kubectl apply -f k8s/frontend-deployment.yaml
+```
+#Summary of Files
+Dockerfile: For containerizing the React front-end application.
+frontend-deployment.yaml: For Kubernetes deployment and service configuration.
+

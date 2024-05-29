@@ -39,7 +39,6 @@ Make sure the backend Spring Boot application is running and accessible at `http
 Add the Bootstrap CSS file to the `styles` array in `angular.json`:
 
 ```
-json
 "styles": [
   "src/styles.css",
   "node_modules/bootstrap/dist/css/bootstrap.min.css"

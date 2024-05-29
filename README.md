@@ -113,7 +113,7 @@ docker push your_dockerhub_username/calendar-frontend:latest
 ```
 kubectl apply -f k8s/frontend-deployment.yaml
 ```
-#Summary of Files
+# Summary of Files
 Dockerfile: For containerizing the React front-end application.
 frontend-deployment.yaml: For Kubernetes deployment and service configuration.
 

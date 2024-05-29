@@ -54,8 +54,9 @@ ng serve
 
 2. Open your browser and navigate to:
 
-
+```
 http://localhost:4200
+```
 
 ## Project Structure
 

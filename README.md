@@ -1,4 +1,4 @@
-# Calendar App Frontend
+# Calendar Calculator App Frontend
 
 This is the frontend part of the Calendar App, built with Angular and styled using Bootstrap. It interacts with the backend RESTful services to perform various calendar-related operations such as adding dates, subtracting dates, finding the day of the week, printing a month's calendar, and counting the number of days/weeks/months/years between two dates.
 

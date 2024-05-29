@@ -73,18 +73,23 @@ CalendarService: Contains methods to call the backend RESTful services.
 **Usage**
 
 Adding Dates
+
 Navigate to the "Add Dates" page, select two dates, and click the "Add" button. The result will be displayed on the screen.
 
 Subtracting Dates
+
 Navigate to the "Subtract Dates" page, select two dates, and click the "Subtract" button. The result will be displayed on the screen.
 
 Finding Day of the Week
+
 Navigate to the "Day of Week" page, select a date, and click the "Get Day of Week" button. The day of the week will be displayed on the screen.
 
 Printing a Month
+
 Navigate to the "Print Month" page, select a date, and click the "Print Month" button. The month's calendar will be displayed on the screen.
 
 Counting Between Dates
+
 Navigate to the "
 
 
